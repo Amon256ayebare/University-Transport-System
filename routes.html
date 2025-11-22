@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Routes - University Transport System</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+</style>
+
+<body class="bg-gray-100">
+
+<div class="flex">
+
+    <!-- SIDEBAR -->
+    <aside class="w-64 bg-blue-900 text-white min-h-screen p-6">
+        <h1 class="text-2xl font-bold mb-8">University Transport</h1>
+        <nav class="space-y-4">
+            <a href="index.html" class="block py-2 px-3 hover:bg-blue-700 rounded">Home</a>
+            <a href="routes.html" class="block py-2 px-3 bg-blue-700 rounded">View Routes</a>
+            <a href="booking.html" class="block py-2 px-3 hover:bg-blue-700 rounded">Book a Route</a>
+            <a href="demo.html" class="block py-2 px-3 hover:bg-blue-700 rounded">System Demo</a>
+        </nav>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="flex-1 p-8">
+        <h2 class="text-3xl font-bold mb-4">Available Routes</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-xl">Kabale - Rubanda - Kisoro</h3>
+                <p class="text-gray-600 mt-2">Route 1</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-xl">Kabale - Rukiga - Rukungiri</h3>
+                <p class="text-gray-600 mt-2">Route 2</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-xl">Kabale - Rubanda - Kanungu</h3>
+                <p class="text-gray-600 mt-2">Route 3</p>
+            </div>
+
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
